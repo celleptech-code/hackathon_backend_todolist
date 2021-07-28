@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TODO LIST</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <header>
+    <img src="/img/lista-de-tarefas.png" alt="" class="logo">
+    <h1>Lista de Tarefas</h1>
+  </header>
+
+  <main>
+    <form action="/" method="POST">
+      <input type="text" name="tarefa" placeholder="Tarefa" autocomplete=off>
+      <input type="submit" value="Adicionar"> 
+    </form>
+
+    <hr>
+
+    <ul>
+      <li>Tarefa um<a href="/del/1">❌</a></li>
+      <li>Tarefa dois<a href="/del/2">❌</a></li>
+      <li>Tarefa três<a href="/del/3">❌</a></li>
+    </ul>
+    
+  </main>
+
+</body>
+</html>

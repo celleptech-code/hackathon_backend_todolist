@@ -1,0 +1,24 @@
+-- CRIAÇÃO DA TABELA
+-- ================================================
+
+
+CREATE TABLE tarefas(
+    id_tarefa serial PRIMARY KEY,
+    tarefa TEXT NOT NULL
+);
+
+
+-- INSEÇÃO DE DADOS
+-- ================================================
+
+
+INSERT INTO tarefas(tarefa) values('Tarefa Teste 1');
+INSERT INTO tarefas(tarefa) values('Tarefa Teste 2');
+INSERT INTO tarefas(tarefa) values('Tarefa Teste 3');
+
+
+-- SELEÇÃO DE DADOS
+-- ================================================
+
+
+SELECT * FROM tarefas;
